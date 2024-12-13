@@ -1,4 +1,7 @@
-from nnv_python.set.zono import Zono
+import numpy as np
+
+# local imports
+from nnv_python.set.abstract import Zono
 
 
 if __name__ == "__main__":

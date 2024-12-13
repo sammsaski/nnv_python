@@ -1,3 +1,6 @@
+import numpy as np
+
+# local imports
 from nnv_python.set.abstract import Box
 
 
@@ -19,4 +22,4 @@ if __name__ == "__main__":
 
     # Outputs
     print(f"{'Original Box:':<14} {lb} {ub}")
-    print(f"{'Mapped Box:':<14} {mapped_box.lb} {mapped_box.ub}"
+    print(f"{'Mapped Box:':<14} {mapped_box.lb} {mapped_box.ub}")
